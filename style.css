@@ -1,0 +1,332 @@
+
+body{font-family:arial;font-size:12px;background:#f7f4f4;color:#000;margin:0px;height:100%}
+
+img{
+border:0px;
+}
+h1{font-size:14px;}
+h2{display:inline-block;width:98%;font-size:12px;background:#fff;padding:3px 1%;text-align:left;}
+
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+a.raport{color:red;}
+
+
+input{padding:4px 3px;}
+.button		{ display: inline-block; line-height: 14px; border-width: 1px; font-size: 11px; font-family: arial;margin:3px 5px;
+ color: #000; font-weight: bold; cursor: pointer; background:#D8E1EB url('images/button_glas1.png') center center repeat-x ; 
+ padding: 4px 17px 4px 17px; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; text-align: center;margin-left:0px; }
+input.button	{ display: inline-block; line-height: 13px; /* IE8 hack */ line-height: 16px\0/; border-width: 1px; font-size: 11px; font-family: arial; color: #FFFFFF; font-weight: bold; cursor: pointer; background: url('../images/button_glas1.png') center center repeat-x #333333; padding: 3px 10px 3px 10px; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; margin-left:0px;}
+
+
+form				{ width: 100%; }
+label{ line-height: 16px; color: #003471;font-size: 12px; font-family: arial;  width:150px; border;1px solid red}
+
+input[type=checkbox] {width:auto; }
+
+input.checkbox			{ display: inline; position: relative; left: 1px; top: 1px; cursor: pointer;}
+input.radio			{ display: inline; position: relative; top: 2px; left: -1px; }
+input.text			{ display: inline; border: 1px solid #B8B8B8; font-size: 10px; font-family: arial; color: #333333; padding: 2px 4px 2px 4px; }
+input.submit			{ display: inline; border-width: 0px; font-size: 11px; font-family: arial; color: #FFFFFF; 
+font-weight: bold; cursor: pointer; background: url('images/button_glas1.png') center center repeat-x #333333; padding: 8px 10px 8px 10px; 
+-moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+}
+input.form-file 
+ { display: inline; height: auto; font-size: 10px !important; }
+select
+{ display: inline; border: 1px solid #B8B8B8; font-size: 12px; font-family: arial; color: #333333; height: 22px; padding: 2px; }
+textarea			{ display: inline; border: 1px solid #B8B8B8; font-size: 12px; font-family: arial; color: #333333; padding: 4px; }
+
+
+
+.button:hover	{ color: #666; text-decoration: none; }
+.button.green	{ background-color: #4DB800; color:#fff}
+.button.green:hover	{ background-color: #70d824; }
+.button.red	{ background-color: #D80017; }
+.button.red:hover	{ background-color: #fe3e52; }
+.button.orange	{ background-color: #ff5c33;color:#fff  }
+.button.orange:hover {opacity:0.8;}
+.button.blue	{ background-color: #00A5C4;color:#fff }
+.button.gray	{ background-color: #706f6f; color:#fff}
+.button.gray:hover	{ background-color: #979595; }
+.button.mov	{ background-color: #6c68b0; }
+.button.grena	{ background-color: #b71548; color:#fff}
+.button.grena:hover	{ opacity:0.7 }
+.green	{ background-color: #4DB800; }
+.red	{ background-color: #D80017; }
+.blue	{ background-color: #00A5C4; }
+.grey	{ background-color: #BBBBBB; }
+.mov	{ background-color: #6c68b0; }
+.grena	{ background-color: #b71548; }
+
+.txtgreen	{ color: #4DB800; }
+.txtred	{ color: #D80017; }
+.txtblue	{ color: #00A5C4; }
+.txtgrey	{ color: #BBBBBB; }
+.txtmov	{ color: #6c68b0; }
+
+
+.button.cauta	{ background-color: #00A5C4; }
+
+
+.btnrefresh{position:absolute;left:10px;border-radius:12px;background:transparent url("images/refresh16.png") no-repeat 2px 2px;height:24px;width:24px;cursor:pointer;}
+.btnadaugare{background:url("images/add-iconooo.png") no-repeat left 3px;}
+.btnstergere{background:url("images/delete-icon16.png") no-repeat left 3px;}
+.btneditare{background:url("images/open-file-icon16.png") no-repeat left 3px;}
+.btnraport{position:relative;color:green;display:inline-block;background: transparent url("images/report.png") no-repeat 4px 2px;border-width: 0px;
+ font-size: 14px; font-family: arial; 	 cursor: pointer; padding: 5px 10px 5px 14px; background-size: 24px;margin-top:10px
+	-moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+	}
+.btnraport:hover{opacity:0.7;}
+
+.btnfiltrare{position:relative;color:#fff;display:inline-block;background: orange url("images/filter.png") no-repeat 2px 0px; background-size: 20px;
+border-width: 0px;
+ font-size: 12px; font-weight:bold;font-family: arial; 	 cursor: pointer; padding: 4px 14px 4px 14px; 
+	-moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+	}
+.btnfiltrare:hover{opacity:0.7;}
+
+
+
+
+
+
+/* structura */
+.container{float:center;display:block;width:100%; min-height:500px;height:auto;display:inline-block;
+border:0px solid #fff;margin-top:00px;background:#f7f4f4;color:#000;
+border-top-left-radius:10px;border-top-right-radius:10px;}
+.container .stanga{float:left;display:block;width:0%;text-align:left;min-height:150px;height:auto;padding:5px 1%;
+}
+.container .dreapta{float:left;display:block;width:98%;text-align:left;height:auto;vertical-align:top;padding:0px 1%;}
+
+	.container .sus{float:left;display:block;width:100%;text-align:left;min-height:40px;height:auto;padding:0px ;
+		}
+	
+					
+
+
+
+.notification 			{ border: 1px solid #666666; border-radius: 3px; display: block; margin-bottom: 15px; overflow: hidden; padding: 9px 0px 4px 0px; position: relative; z-index: 1; zoom: 1; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.notification a.close		{ display: block; width: 11px; height: 11px;  background: url('../images/ico_close_off.png') top left no-repeat; font-size: 0%; text-indent: -9999px; position: absolute; top: 3px; right: 3px; }
+.notification a.close:hover	{ background: url('../images/ico_close_ovr.png') top left no-repeat; }
+.notification p			{ color: #333333; line-height: 16px; padding: 0px 25px 5px 42px !important;}
+
+.note-error			{ background: url('images/ico_error.png') 2px 0px no-repeat #FAE2E3; border-color: #EC9B9B;padding-left:35px; }
+.note-success			{ background: url('images/ico_success.png') 2px 0px no-repeat #DFFAD3; border-color: #72CB67;padding-left:35px; }
+.note-info			{ background:  url('images/ico_info.png') 0px 0px no-repeat #DDE9F7; border-color: #50B0EC; padding-left:10px;}
+.note-attention			{ background: url('images/ico_attention.png') 2px 0px no-repeat #FFFAC6; border-color: #D3C200; padding-left:35px;}
+
+/* meniu taburi verticale din stanga  */
+
+
+
+.paginare-wrapper{
+float:right;border:0px solid blue; text-align:right;margin-top:0px;
+}	
+
+.nrpag{
+	border:0px solid blue; width:20px;height:18px;display:inline;
+	margin-right:4px;text-align:center;
+}
+.nrpag a{text-decoration:none; padding:0px 5px;width:14px;color:blue;}	
+	.nrpag ahover{ 
+	background:#009ee3; color:fff;padding:0px 5px;width:14px;
+	}
+.nrpagcur{
+	border:0px solid blue; width:20px;height:18px;display:inline;
+	margin-right:4px; text-align:center;background:#009ee3;
+}
+.nrpagcur a{ 
+	text-decoration:none;padding:0px 5px;color:#fff;
+	}
+			
+
+/* layout si popap pentru apeluri ajax in pagina principala */
+.black_overlay {display: none; 	position: fixed;	top: 0%;	left: 0%;
+		width: 100%;	height: 100%;	background-color: black;
+		z-index:9;	-moz-opacity: 0.6;	opacity:.30;	filter: alpha(opacity=30);
+	}
+	#popap_centru, #popap_centru2{ position:fixed;  display:none; float:center;
+		min-width:100px;width:auto;min-height:50px;height:auto;
+		background:#dff0f7;padding:10px;font-weight:normal;
+		border:solid 0px #003663;  color:#000;  border-radius:0px;z-index:10;overflow-y:auto !important;
+		}
+	#popap_centru2{z-index:11;} 
+
+	.popap{ position:absolute;  display:none;left:0px;top:0px; 
+		min-width:110px;width:auto;min-height:50px;height:auto;
+		background:transparent;padding:3px;font-weight:normal;
+		 color:#000;  border-radius:0px;z-index:10;
+}
+
+a.inchidere, a.inchidere2{ width:30px;height:30px;background: transparent url('images/cross.png') 2px 0px no-repeat;}
+
+/* fereastra lista*/
+	.titlufereastra{float:left;display:block;width:98%;margin-top:5px;padding:5px 1%;text-align:left;font-size:14px;
+	font-weight:bold;letter-spacing:1.1px;background:#005b7f /*#003663 a1a1a1*/;color:#fff;}
+	
+
+	.butoane{position:relative;float:left;display:block;width:98%;padding:6px 1%;min-height:20px;text-align:right;background:transparent/*#D8E1EB*/;border-bottom:1px solid #fff;}
+		
+	.cautare{float:left;display:block;width:98%;padding:8px 1%;min-height:10px;height:auto;text-align:left;background:#D8E1EB;border:0px solid #fed36c;margin-top:0px;margin-bottom:2px;}
+	
+	
+	
+	.filtrare{float:left;display:block;width:98%;padding:2px 1%;min-height:10px;height:auto;text-align:left;border-bottom:1px solid #999 /*#fed36c*/;margin-top:3px;}
+
+	
+#bloclista{color:#000;}	
+	.lista{float:left;display:block;width:100%;padding:3px ;min-height:50px;}
+	.stare{float:left;display:block;width:98%;padding:2px 1%;text-align:right;min-height:20px;text-align:left;background:#d3d1d1;border-bottom:1px solid #fff;}
+		#info{float:left;display:block;font-size:9px;}
+			.idselectat, #idselectat, #selectat{background:transparent;border:0px;font-size:9px;width:auto;}
+			
+			
+#blocform{float:left;display:block;width:96%;padding:6px 2%;text-align:left;height:auto;border:1px solid #fff;border-radius:0px;}
+			
+
+	.btninchidere_inapoi{position:absolute;right:10px;bottom:5px;}
+	.btnsalvare{background:url("images/save16.png") no-repeat left 3px;cursor: pointer;}
+	
+	.btninchidere{float:right;bottom:5px;margin-top:5px;color:#fff;background: red url("images/close16.png") no-repeat left 3px;cursor: pointer;}
+	
+	.btninchidere{position:fixed;top:0px;right:5px;color:#fff;background: red url("images/close16.png") no-repeat left 1px;cursor: pointer;height:30px;}
+	.btninchidere:hover{color:#fff;}
+
+
+
+table				{ width: 100%; margin: 0px; margin-bottom: 20px; }
+table.style1			{width:100%; }
+table.style1 caption 		{ background: none #959595; color: #FFFFFF; font-size: 12px; padding: 5px 11px 5px 11px; text-align: left; }
+table.style1 th			{ border: 1px solid #DDDDDD; font-size:11px;line-height: 11px; padding: 2px 3px 2px 3px; color: #333333; white-space: nowrap; text-align: left;
+ }
+table.style1 thead th		{  background:#ebe8e8;padding-top: 2px;border-bottom:0px; }
+table.style1 thead td		{ background: #ccc; border: 1px solid #DDDDDD; text-align: left; line-height: 12px; padding:5px;   white-space: nowrap; }
+table.style1 tbody{  height: 60px;   overflow-y: auto;overflow-x: hidden;}
+table.style1 tbody tr{ width:100%;background: #fff; }
+table.style1 tbody tr:hover		{ background: #; }
+table.style1 tbody tr td			{  border: 1px solid #DDDDDD; font-size:12px;line-height: 12px; padding:5px;    color: #333333;}
+table.style1 .icon16		{ margin-top: 3px; margin-bottom: 3px; }
+table.style1 td.vcenter		{ vertical-align: middle; }
+table.style1 td p		{  }
+
+
+table.style1  {
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+table.style1 tbody td {
+    border-width: 1px;
+    border-style: solid;
+}
+
+table.style1 thead th {
+    border-width: 1px;
+    border-style: solid;
+    border-bottom:0px; border-bottom:0px;
+}
+
+table.style1 tr:nth-child(even) {background: #f1f1f1}
+table.style1 tr:nth-child(odd) {background: #FFF}
+
+} /* end media min-width 360px*/
+
+
+/* meniu principal din header  */
+
+	#meniu{position:fixed;float:left; top:36px;display:none;width:94%;height:650px;background:#f2f2f2/*#0c6383*/;padding:10px 1%;
+	border-bottom:5px solid #0c6383;border-left:1px solid #0c6383;border-right:1px solid #0c6383;overflow:scroll;
+	border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+	
+
+	#meniu_bloc {float:left;display:inline-block;width:21%;min-height:280px;height:auto;
+	background:#f2f2f2;border:0px solid #999; padding:10px;border-radius:6px;margin-top:20px;margin-left:20px;
+	}
+	
+	.titlufereastra_addedit{float:left;display:block;width:98%;padding:5px 1%;text-align:left;font-size:18px;
+	font-weight:bold;letter-spacing:1.1px;background:#fff;}
+     .titlufereastra_add{float:left;display:block;width:98%;padding:5px 1%;text-align:left;font-size:18px;
+	font-weight:bold;letter-spacing:1.1px;background:#fff;}
+	
+	
+
+	
+	#meniu ul{float:left;display:block;margin-top:5px;width:100%;}
+		#meniu ul li {}
+			#meniu ul li a{float:left;display:block;width:90%;border-bottom:1px dotted #666;font-size:12px;text-align:left;padding:5px 8px;font-weight:bold;}
+			
+			#meniu_bloc ul li a {color:#8560a8;}
+			#meniu_bloc ul li a:hover{color:#5497c4;}
+			#meniu_bloc ul li a {color:#b91916;}
+			#meniu_bloc ul li a:hover{color:#5497c4;}
+			
+		
+	
+
+.colA, .colB{height:auto;}
+
+
+
+/* campuri formular*/
+.camp{float:left;display:block;margin-left:0pxx ; margin-right:5px;}
+
+.camp_auto{display:inline-block;width:auto;margin-bottom:8px;margin-right:10px;margin-top:4px;margin-bottom:4px;font-size:14px}
+.camp_auto label{width:150px;display:inline-block;}
+.camp_auto input{ font-size:14px; padding:4px ; border:1px solid #999;}
+.camp_auto select{ font-size:14px;height:auto; border:1px solid #999;height:auto;margin-top:2px;margin-bottom:2px}
+.camp_auto textarea{ font-size:14px;border:1px solid #999;}
+
+.camprand{width:98%}
+
+
+
+@media screen and (max-width: 1400px){
+	#meniu {height:90%;}
+	.colA{width:90% !important;}
+	.colB{width:90% !important;}
+	
+	#meniu_bloc{width:29% !important;}
+	
+}
+
+@media screen and (max-width: 1200px){
+	#meniu {height:90%;}
+	.colA{width:90% !important;}
+	.colB{width:90% !important;}
+	
+	#meniu_bloc{width:43% !important;}
+	
+}
+
+
+@media screen and (max-width: 700px){
+	#meniu {height:90%;}
+	.colA{width:90% !important;}
+	.colB{width:90% !important;}
+	
+	#meniu_bloc{width:90% !important;min-height:60px;height:auto;}
+
+	
+}
+
+
+@media screen and (max-width: 460px){
+	
+	.camp_auto  {display:inline-block;width:96%;margin-bottom:6px;}
+	
+	.camp_auto, .camp_auto > div , it label, .camp_full label{width:100%;}
+	.camp_auto input, .camp_auto select, .camp_auto textarea {width:98% !important;}
+	.camp_auto input, submit, .camp_auto select, .camp_auto div select, .camp_auto textarea {width:98% !important;}
+	input[type=checkbox] {width:50px !important;}
+	
+	
+	
+/*.campedit label{font-size:1.2em; }*/
+	.camp_auto input, submit, .camp_auto select, .camp_auto textarea
+		{font-size:1.2em; padding:6px;margin-top:2px;margin-bottom:2px}
+	input.button, a.button {font-size:1.23em; padding:6px;}
+	
+}
+

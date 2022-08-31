@@ -1,0 +1,2 @@
+[13-Jul-2022 20:18:07 Europe/Bucharest] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/r50586soft/public_html/aplicatii/106_pdfparser/config.php on line 8
+[13-Jul-2022 20:18:07 Europe/Bucharest] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home4/r50586soft/public_html/aplicatii/106_pdfparser/config.php on line 10
